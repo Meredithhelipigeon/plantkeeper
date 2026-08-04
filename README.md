@@ -15,3 +15,9 @@ Starting with GPIO-controlled pump automation, this project will gradually evolv
 - 🌐 REST API
 - 📈 Time-lapse growth monitoring
 - 📷 Computer vision for plant health detection
+
+---
+
+## 🚀 Development Roadmap
+
+### ⏳ Stage 1 — GPIO + Pump Control
