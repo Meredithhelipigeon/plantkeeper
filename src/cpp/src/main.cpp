@@ -1,8 +1,7 @@
-// Phase 1 usage: ./water <seconds>
+// Usage: ./water <seconds>
 // Runs the pump for the given number of seconds, then stops it.
 //
-// From Phase 3 onward, replace the hardcoded GPIO pin below with a value
-// read from config.yaml (see src/config/config.example.yaml).
+// TODO: read the GPIO pin from a config file instead of hardcoding it.
 
 #include <chrono>
 #include <cstdlib>
@@ -12,7 +11,7 @@
 #include "Pump.h"
 
 namespace {
-constexpr unsigned int kDefaultPumpPin = 18;  // BCM GPIO18, see docs/ARCHITECTURE.md
+constexpr unsigned int kDefaultPumpPin = 18;  // BCM GPIO18
 }
 
 int main(int argc, char** argv) {
